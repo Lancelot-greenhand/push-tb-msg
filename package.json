@@ -1,0 +1,18 @@
+{
+  "name": "app-push",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "pp": "./bin/pp.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "instapush": "^0.0.7",
+    "puppeteer": "^0.13.0"
+  }
+}

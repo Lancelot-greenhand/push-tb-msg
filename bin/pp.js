@@ -6,8 +6,8 @@ const prog = require('caporal')
 const app = require('../index')
 
 
-prog.version('1.0.0')
-    .description('A simple program that says "biiiip"')
+prog.version('0.1.0')
+    .description('')
     .action(function(args, options, logger) {
         let name = args.name
         app.emit('boot', name)

@@ -25,7 +25,7 @@ class App extends EventEmitter {
         await page.goto('https://login.taobao.com/member/login.jhtml?f=top&redirectURL=https%3A%2F%2Fwww.taobao.com%2F', {
             waitUntil: 'networkidle2'
         })
-        let pswLoginIcon = await page.$('.J_Quick2Static')
+        let pswLoginIcon = await page.$('#J_Quick2Static')
         await pswLoginIcon.click()
             // const html = await page.evaluate((el) => {
             //     return el
